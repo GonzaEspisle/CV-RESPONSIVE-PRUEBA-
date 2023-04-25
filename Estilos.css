@@ -14,7 +14,7 @@ body {
 
 .lado_izquierdo {   
     flex-wrap: wrap;
-    width: 30%;
+    width: 100%;
     padding: 0 20px;
     background: #052E6C;
     min-height: 1200px;
@@ -32,7 +32,7 @@ body {
 /********INTRO**********/
 
 .texto-perfil {
-    display:flex;
+   flex-wrap: wrap;
     flex-direction: column;
     margin-top: 40px;
 }
@@ -149,4 +149,10 @@ body {
     display: flex;
     flex-wrap: wrap;
     position: relative;
+}
+@media screen and (min-width: 1000px) {
+    .lado_izquierdo{
+        width: 30%;
+    }
+
 }
