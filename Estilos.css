@@ -1,0 +1,152 @@
+* {
+    list-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body { 
+    background: rgb(125, 121, 121);
+}
+
+/********CAJA IZQ**********/
+
+.lado_izquierdo {   
+    flex-wrap: wrap;
+    width: 30%;
+    padding: 0 20px;
+    background: #052E6C;
+    min-height: 1200px;
+    text-align: left;
+}
+.container {
+        
+        flex-wrap: wrap;
+        width: 100%;
+        background: white;  
+        box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+        display: flex;
+}
+
+/********INTRO**********/
+
+.texto-perfil {
+    display:flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+/********IMAGEN**********/
+
+.caja-img {
+  flex-wrap: wrap;
+    width: 200px;
+    height: 210px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-left: 45px;
+}
+
+.imagen-personal {
+  flex-wrap: wrap;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+/********DATOS PERSONALES**********/
+
+.info-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.info-item {
+    color: white;
+    margin-top: 5px;
+}
+
+.underline, .titulo {
+    border-bottom: 2px solid white;
+}
+
+.informacion-container {
+   flex-wrap: wrap;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.titulo {
+    color:white;
+    font: 1,5em;
+    text-align: left;
+    font-weight: 500;
+    width: fit-content;
+}
+
+.menu-list {
+    margin-top: 20px;
+}
+
+.menu-item {
+    display: block;
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.menu-item:hover {
+    color: yellow;
+}
+
+.active {
+    color: yellow;
+}
+
+/********CAJA DER**********/
+
+.lado_derecho {
+        position: relative;
+        background:white;
+        margin: 40px;
+}
+
+.datos-personales {
+    font-size: 28px;
+}
+
+.descripcion-D {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.ingles-t{
+    display: flex;
+  flex-wrap: wrap;
+    top: 35px;
+    right: -500px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.Ingles{
+    flex-wrap: wrap;
+    display: flex;
+    top: 100px;
+    right: -600px;
+}
+/*******CONTACTO**************/
+.info-con {
+    display: flex;
+    position: relative;
+
+}
+.linkedin {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
