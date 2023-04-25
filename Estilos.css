@@ -156,3 +156,16 @@ body {
     }
 
 }
+/*******Experiencia**************/
+.Html-y-css{
+    flex-wrap: wrap;
+    display: flex;
+    top: 100px;
+    right: -600px;
+}
+.Office{
+    flex-wrap: wrap;
+    display: flex;
+    top: 100px;
+    right: -600px;
+}
